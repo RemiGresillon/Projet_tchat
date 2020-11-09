@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    overflow:hidden;
+    background-color: rgba(91, 144, 148, 0.658);
+}
+#container_messages{
+    width: 80%;
+    height: 80vh;
+    margin: 20px 10% 0 10%;
+    border: solid 2px white;
+    background-color: rgba(192, 225, 228, 0.877);
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+#container_send_messages{
+    width: 80%;
+    height: 10vh;
+    margin: 20px 10% 0 10%;
+}
+
+#container_login{
+    border: solid 2px white;
+    border-radius: 3%;
+    background-color:rgba(192, 225, 228, 0.877);
+    width: 35%;
+    margin: 20px 32.5% 0 32.5%;
+}
+
+#container_login h3 {
+    text-align: center;
+}
+
+.content_login{
+    text-align: center;
+}
+
+.submit{
+    margin-top: 5px;
+}
+
+#bloc_message_left{
+    width: 50%;
+    border-radius: 2%;
+    margin : 5px 0 0 5%;
+    border : solid 2px white;
+    /*background-color: rgba(192, 225, 228, 0.877);*/
+    background-color: rgba(91, 144, 148, 0.658);
+}
+
+#bloc_message_right{
+    width: 50%;
+    border-radius: 2%;
+    margin:5px 0 0 48%;
+    border : solid 2px white;
+    background-color: rgba(91, 144, 148, 0.658);
+}
+
+#pseudo_message{
+    margin: 5px 0 0 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#text_message{
+    margin: 5px 0 5px 10px;
+    font-style: italic;
+}
