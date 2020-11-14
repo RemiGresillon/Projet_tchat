@@ -26,6 +26,7 @@ if(isset($_POST['message']) AND !empty($_POST['message']))
     <title>Site de test Tchat</title>
     <link rel="stylesheet" href="../css/style.css">
     <script type="text/javascript" src="../javascript/reload.js"></script>
+    <script type="text/javascript" src="../javascript/options_color.js"></script>
 </head>
 <body>
     <div id="container_messages"></div>
@@ -34,9 +35,8 @@ if(isset($_POST['message']) AND !empty($_POST['message']))
         <input type="text" name="message" placeholder = "Ecris ton message ici !"></textarea>
         <input type="submit" value="Envoie"/>
         <a href="deconnexion.php">Se déconnecter</a>
+        <a href="options.php">options</a>
     </form>
-
-    
     
 </body>
 

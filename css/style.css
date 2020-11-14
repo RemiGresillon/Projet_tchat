@@ -5,7 +5,17 @@ body{
 }
 #container_messages{
     width: 80%;
-    height: 80vh;
+    height: 60vh;
+    margin: 20px 10% 0 10%;
+    border: solid 2px white;
+    background-color: rgba(192, 225, 228, 0.877);
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+#container_messages_options{
+    width: 80%;
+    height: 60vh;
     margin: 20px 10% 0 10%;
     border: solid 2px white;
     background-color: rgba(192, 225, 228, 0.877);
@@ -53,8 +63,28 @@ body{
     border-radius: 2%;
     margin:5px 0 0 48%;
     border : solid 2px white;
+    background-color: rgba(34, 202, 214, 0.705);
+}
+
+
+#bloc_message_left_options{
+    width: 50%;
+    border-radius: 2%;
+    margin : 5px 0 0 5%;
+    border : solid 2px white;
+    /*background-color: rgba(192, 225, 228, 0.877);*/
     background-color: rgba(91, 144, 148, 0.658);
 }
+
+#bloc_message_right_options{
+    width: 50%;
+    border-radius: 2%;
+    margin:5px 0 0 48%;
+    border : solid 2px white;
+    background-color: rgba(34, 202, 214, 0.705);
+}
+
+
 
 #pseudo_message{
     margin: 5px 0 0 15px;
@@ -65,4 +95,13 @@ body{
 #text_message{
     margin: 5px 0 5px 10px;
     font-style: italic;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
 }

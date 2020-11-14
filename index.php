@@ -86,6 +86,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		<div class="content_login">
 			<input class="submit" type="submit" value="Connexion"/>
 			<a href="script/subscribe">Je n'ai pas de compte</a></p>
+			<a href="script/reset_password">J'ai oublié mon mot de passe</a>
             <?php echo $error?>
 		</div>
 	</p>
